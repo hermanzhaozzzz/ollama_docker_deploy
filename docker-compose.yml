@@ -1,7 +1,7 @@
 services:
   ollama:
-    # image: ollama/ollama:latest  # for CPU only
-    image: ollama/ollama:rocm  # for AMD GPU
+    image: ollama/ollama:latest  # for CPU only
+    # image: ollama/ollama:rocm  # for AMD GPU
     ports:
       - 11434:11434
     volumes:
